@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour
     public void OnPause(InputValue value)
     {
         if (!value.isPressed)
-            return;
+            return; 
         if (isPaused)
             Resume();
         else
