@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 75164265}
   - component: {fileID: 75164264}
   - component: {fileID: 75164263}
+  - component: {fileID: 75164269}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Untagged
@@ -324,12 +325,26 @@ Transform:
   m_GameObject: {fileID: 75164262}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.86, y: -3.01, z: 0}
+  m_LocalPosition: {x: -8.03, y: -3.09, z: 0}
   m_LocalScale: {x: 8.6809, y: 8.6809, z: 8.6809}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &75164269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75164262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cf9897110baa44fb5497b5b03f3f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  PaussaPanel: {fileID: 163677838}
+  resumeButton: {fileID: 799754989}
 --- !u!1 &163677838
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.94, y: -5.51}
-  m_SizeDelta: {x: 405.34, y: 546.5}
+  m_AnchoredPosition: {x: 0.0060768, y: -0.0049949}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163677840
 MonoBehaviour:
@@ -539,8 +554,8 @@ Transform:
   m_GameObject: {fileID: 341539601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0971, y: -4.4848, z: 0}
-  m_LocalScale: {x: 7.87347, y: 1.1697066, z: 1}
+  m_LocalPosition: {x: 0.0182, y: -4.4453, z: 0}
+  m_LocalScale: {x: 17.856548, y: 1.0907522, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -581,8 +596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.9399996, y: 186.51}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 679, y: -449}
+  m_SizeDelta: {x: 316.67, y: 93.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430622310
 MonoBehaviour:
@@ -607,8 +622,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.22991568, g: 0.46389517, b: 0.5849056, a: 1}
+    m_SelectedColor: {r: 0.7921569, g: 0.19215687, b: 0.62352943, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -981,7 +996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ComponentVersion: 3
+  m_ComponentVersion: 2
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
@@ -1064,7 +1079,7 @@ RectTransform:
   m_GameObject: {fileID: 799754989}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6319447, y: 1.6319447, z: 1.6319447}
+  m_LocalScale: {x: 2.7955213, y: 2.7955213, z: 2.7955213}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 578408867}
@@ -1072,7 +1087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9399993, y: -24.49}
+  m_AnchoredPosition: {x: -2, y: -56}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799754991
@@ -1098,8 +1113,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.23137255, g: 0.46666667, b: 0.5882353, a: 1}
+    m_SelectedColor: {r: 0.7924528, g: 0.19188315, b: 0.6216895, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1277,7 +1292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72cf9897110baa44fb5497b5b03f3f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
-  PausaPanel: {fileID: 163677838}
+  PaussaPanel: {fileID: 163677838}
+  resumeButton: {fileID: 799754989}
 --- !u!4 &1667092562
 Transform:
   m_ObjectHideFlags: 0
