@@ -6,7 +6,9 @@ public class Movement : MonoBehaviour
     [SerializeField] float speed = 5f;
     private Vector2 movement;
     private Rigidbody2D rb;
+    
 
+  
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -19,4 +21,7 @@ public class Movement : MonoBehaviour
     {
         rb.linearVelocity = movement * speed;
     }
+
+    
+    
 }

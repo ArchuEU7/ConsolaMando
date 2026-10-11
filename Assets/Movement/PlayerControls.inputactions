@@ -7,16 +7,6 @@
             "id": "5871369c-294d-47dc-bb67-95ef6a73c0ee",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "65258d39-597d-423c-86c2-d257f7db8940",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
-                },
-                {
                     "name": "Move",
                     "type": "Value",
                     "id": "61e27acd-3a19-49b7-ade4-72c656bf491a",
@@ -35,20 +25,19 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "d227ad19-9a73-4d31-bac1-1208ede9175c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "a3da4cff-c4eb-4750-b7b7-6ea39981f888",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "2D Vector",
                     "id": "fef0e504-2704-448b-88ea-5fc5a30a8f23",
@@ -189,6 +178,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f2a5059-d6ef-42f8-9904-e306837ca830",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7f1cb2a-e4b9-4e68-a291-8c053e65fffd",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
